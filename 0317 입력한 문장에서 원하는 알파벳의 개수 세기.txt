@@ -6,7 +6,7 @@ usertarget=input("찾을 알파벳(단일문자)을 입력해주세요.")
 count=0
 
 for i in userstr:
-	if userstr[i]=usertarget:
+	if i==usertarget:  ##userstr[i]로 하면 아마도 에러날 걸! 정확히는 i 이다. 범위조건에서 이미 해당, 그리고 값다는 등호는 =가 아니라 ==이다.
 		count=count+1
 
 print("%s 의 개수는 %s 개 입니다." %(userstr,count))
