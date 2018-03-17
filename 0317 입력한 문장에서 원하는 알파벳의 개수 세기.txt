@@ -1,0 +1,12 @@
+#0317 입력한 문장에서 원하는 알파벳의 개수 세기
+
+userstr= input("문장을 입력해주세요.")
+usertarget=input("찾을 알파벳(단일문자)을 입력해주세요.")
+
+count=0
+
+for i in userstr:
+	if userstr[i]=usertarget:
+		count=count+1
+
+print("%s 의 개수는 %s 개 입니다." %(userstr,count))
