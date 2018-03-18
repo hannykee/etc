@@ -7,6 +7,7 @@ count=0
 
 for i in userstr:
 	if i==usertarget:  ##userstr[i]로 하면 아마도 에러날 걸! 정확히는 i 이다. 범위조건에서 이미 해당, 그리고 값다는 등호는 =가 아니라 ==이다.
+			# 뭐지 근데 해보니까 오류 안난다..
 		count=count+1
 
 print("%s 의 개수는 %s 개 입니다." %(userstr,count))
